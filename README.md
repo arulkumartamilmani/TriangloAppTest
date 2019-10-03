@@ -7,13 +7,13 @@ Cucumber based framework using Ruby, Appium and Page Objects for Mobile app auto
 
 The following are the directory levels & Files
 
-AutomationAPI/features/home.feature 		-**Gherkin document**< /br>			
-AutomationAPI/features/step_defenition/		-**Ruby based scripts for Automation**< /br> 
-AutomationAPI/features/pages/				-**Page Objects which interacts with Application Under Test**< /br>
-AutomationAPI/features/support/				-**Environment configuration, Hooks and Android application apk file**< /br> 
-AutomationAPI/features/spec/spec_helper.rb	-**Helper file pointing to the Page Object file**< /br>			
-AutomationAPI/cucumber.yml					-**Profile and Test result folder configuration**< /br>
-AutomationAPI/features_report.html			-**Test Result file**< /br> 
+AutomationAPI/features/home.feature 		      -**Gherkin document**<br />		
+AutomationAPI/features/step_defenition/		    -**Ruby based scripts for Automation**<br /> 
+AutomationAPI/features/pages/				          -**Page Objects which interacts with Application Under Test**<br />
+AutomationAPI/features/support/				        -**Environment configuration, Hooks and Android application apk file**<br /> 
+AutomationAPI/features/spec/spec_helper.rb	  -**Helper file pointing to the Page Object file**<br />
+AutomationAPI/cucumber.yml					          -**Profile and Test result folder configuration**<br />
+AutomationAPI/features_report.html			      -**Test Result file**<br />
 
 DEPENDENCIES
 ------------
@@ -27,11 +27,10 @@ DEPENDENCIES
 8) Android SDK 
 9) swt.jar (4.8)  
 
-
 Run
 --------------
 The tests can be executed as a cucumber test  
-C:/>cd Automation </ br>
+C:/>cd Automation <br />
 C:/Automation>cucumber --profile html_report
 
 Test Framework OPERATIONAL MANUAL
